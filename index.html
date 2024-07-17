@@ -21,13 +21,19 @@
         value="15"
       />
 
-      <button id="button" class="button-cta">Gerar Sennha</button>
+      <button id="button" class="button-cta" onclick="generatePassword ()">
+        Gerar Sennha
+      </button>
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div
+      id="container-password"
+      onclick="copyPassword()"
+      class="container-password hide"
+    >
       <span id="title">Sua senha Gerada foi:</span>
       <span id="password" class="password">123123123123</span>
-      <span>Clique na senha para copiar. 👆</span>
+      <span class="tooltip">Clique na senha para copiar. 👆</span>
     </div>
 
     <script src="script.js"></script>
