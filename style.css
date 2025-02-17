@@ -133,3 +133,121 @@ body {
 #generate:hover {
     background-color: var(--color-primary-2);
 }
+
+/* Media Queries para Responsividade */
+
+/* Tablets (768px a 1024px) */
+@media only screen and (max-width: 1024px) {
+    #container {
+        padding: 20px;
+    }
+
+    #password_items {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    #password_img {
+        width: 80px;
+    }
+
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #generate {
+        font-size: 14px;
+    }
+}
+
+/* Smartphones (425px a 768px) */
+@media only screen and (max-width: 768px) {
+    #container {
+        gap: 8px;
+    }
+
+    #password_img {
+        width: 60px;
+    }
+
+    #title {
+        font-size: 1.2rem;
+    }
+
+    #password_container {
+        max-width: 90%;
+        padding: 6px 12px;
+    }
+
+    #password {
+        font-size: 12px;
+    }
+
+    #copy {
+        font-size: 14px;
+    }
+
+    #password_items {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .item {
+        gap: 8px;
+    }
+
+    #size {
+        width: 40px;
+    }
+
+    #generate {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
+
+/* Smartphones pequenos (até 425px) */
+@media only screen and (max-width: 425px) {
+    #container {
+        gap: 6px;
+    }
+
+    #password_img {
+        width: 50px;
+    }
+
+    #title {
+        font-size: 1rem;
+    }
+
+    #password_container {
+        max-width: 100%;
+        padding: 4px 8px;
+    }
+
+    #password {
+        font-size: 10px;
+    }
+
+    #copy {
+        font-size: 12px;
+    }
+
+    #password_items {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .item {
+        gap: 6px;
+    }
+
+    #size {
+        width: 30px;
+    }
+
+    #generate {
+        font-size: 10px;
+        padding: 6px 0;
+    }
+}
